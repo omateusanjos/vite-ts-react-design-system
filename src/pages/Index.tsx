@@ -1,14 +1,11 @@
 import Button from "../components/Button";
-import Link from "../components/Link";
+import { Menu } from "../components/Menu";
 
-const Index = () => {
+export const Index = () => {
   return (
     <>
-      teste
+      <Menu />
       <Button onClick={() => console.log("teste")}>teste</Button>
-      <Link href="https://vitejs.dev">Vite</Link>
     </>
   );
 };
-
-export default Index;
